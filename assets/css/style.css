@@ -38,11 +38,11 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: rgb(40, 11, 48);
+  background: rgb(164, 200, 225);
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #4dff6a;
+  background: #2C3E50;
 }
 
 
@@ -58,7 +58,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #013005;
+  background-color: #1B3A57;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 
@@ -127,7 +127,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: rgb(27, 58, 87);
   display: none;
 }
 
@@ -144,7 +144,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #013005;
+    background-color: #1b3a57;
   }
 
   header .navbar ul {
@@ -203,7 +203,7 @@ header .navbar ul li a:hover {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #013005;
+  background-color: #2C3E50;
 }
 
 .home::before {
@@ -251,15 +251,15 @@ header .navbar ul li a:hover {
 }
 
 .home .content p {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #f7f7f7;
   font-weight: 600;
   padding: 1rem 0;
 }
 
 .home .content p span {
-  font-size: 2.5rem;
-  color: rgb(170, 5, 5);
+  font-size: 2rem;
+  color: rgb(7, 120, 1);
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -319,7 +319,7 @@ header .navbar ul li a:hover {
   display: inline-block;
   line-height: 44px;
   color: #00d9ff;
-  background-color: #09011b;
+  background-color: #4a6e8d;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -338,23 +338,23 @@ header .navbar ul li a:hover {
 }
 
 .social-icons a.github:hover {
-  background-color: #0e0e0e;
+  background-color: #0685da;
 }
 
 .social-icons a.twitter:hover {
-  background-color: #00aced;
+  background-color: #0685da;
 }
 
 .social-icons a.linkedin:hover {
-  background-color: #007bb6;
+  background-color: #0685da;
 }
 
 .social-icons a.dev:hover {
-  background-color: #070707;
+  background-color: #0685da;
 }
 
 .social-icons a.instagram:hover {
-  background-color: #ee00da;
+  background-color: #0685da;
 }
 
 /* social icons end */
@@ -387,7 +387,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(255, 255, 255);
+  background: rgb(164, 200, 225);
 }
 
 .about .row {
@@ -521,6 +521,7 @@ header .navbar ul li a:hover {
 
 /* about media queries ends*/
 /* about section ends */
+
 
 /* skills section starts */
 .skills {
