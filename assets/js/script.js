@@ -212,11 +212,3 @@ if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') 
   document.body.classList.add('dark-theme');
   toggle.innerHTML = '<i class="fas fa-sun"></i>';
 }
-
-// Toggle button functionality
-toggle.addEventListener('click', () => {
-  document.body.classList.toggle('dark-theme');
-  const isDark = document.body.classList.contains('dark-theme');
-  localStorage.setItem('theme', isDark ? 'dark' : 'light');
-  toggle.innerHTML = isDark ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
-});
