@@ -1,25 +1,20 @@
 [
-  { "name": "GIS (ArcGIS, Google Earth Engine)", "percentage": "90%" },
-  { "name": "Data Analysis (Python, Machine Learning)", "percentage": "85%" },
-  { "name": "Environmental Research", "percentage": "95%" },
-  { "name": "Project Management", "percentage": "80%" },
-  { "name": "Scientific Writing", "percentage": "90%" },
-  { "name": "SPSS Statistics", "percentage": "75%" }    
+  
     {
-        "name": "Bootstrap",
+        "name": "GIS - ArcGIS, Google Earth Engine",
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
     },
     
     {
-        "name": "HTML5",
+        "name": "Data Analysis - Python, Machine Learning",
         "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
     },
     {
-        "name": "CSS3",
+        "name": "Environmental Research",
         "icon": "https://img.icons8.com/color/48/000000/css3.png"
     },
     {
-        "name": "JavaScript",
+        "name": "Scientific Writing",
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
     {
