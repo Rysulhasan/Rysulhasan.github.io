@@ -127,7 +127,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(27, 58, 87);
+  color: rgb(212, 233, 252);
   display: none;
 }
 
@@ -271,9 +271,9 @@ header .navbar ul li a:hover {
   padding: 1.6rem 3rem;
   border-radius: 4em;
   transition: 0.5s;
-  color: #000;
-  background: #29739e;
-  box-shadow: 0px 5px 18px rgba(46, 185, 255, 0.6);
+  color: #fff;
+  background: #000;
+  box-shadow: 0px 5px 18px rgba(33, 41, 46, 0.6);
   font-family: "Nunito", sans-serif;
 }
 
@@ -319,7 +319,7 @@ header .navbar ul li a:hover {
   display: inline-block;
   line-height: 44px;
   color: #00d9ff;
-  background-color: #4a6e8d;
+  background-color: #010b14;
   width: 44px;
   height: 44px;
   text-align: center;
