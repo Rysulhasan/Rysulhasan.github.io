@@ -4,10 +4,7 @@
   { "name": "Environmental Research", "percentage": "95%" },
   { "name": "Project Management", "percentage": "80%" },
   { "name": "Scientific Writing", "percentage": "90%" },
-  { "name": "SPSS Statistics", "percentage": "75%" }
-]
-[
-    
+  { "name": "SPSS Statistics", "percentage": "75%" }    
     {
         "name": "Bootstrap",
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
