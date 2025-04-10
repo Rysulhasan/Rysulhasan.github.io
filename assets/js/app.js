@@ -29,7 +29,7 @@ particlesJS('particles-js',
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#8c0404"
+          "color": "#000000"
         },
         "polygon": {
           "nb_sides": 5
