@@ -193,7 +193,7 @@ header .navbar ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  min-height: 100vh;
+  min-height: 70vh;
   align-items: center;
 }
 
@@ -226,7 +226,7 @@ header .navbar ul li a:hover {
 }
 
 .home .image img {
-  width: 70%;
+  width: 50%;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -238,27 +238,27 @@ header .navbar ul li a:hover {
 }
 
 .home .content h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 800;
-  color: #002057;
+  color: #f7f7f7;
 }
 
 .home .content h2 span {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 800;
   color: #ff7b00;
 }
 
 .home .content p {
   font-size: 2.5rem;
-  color: #000;
+  color: #f7f7f7;
   font-weight: 600;
   padding: 1rem 0;
 }
 
 .home .content p span {
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: rgb(170, 5, 5);
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -270,9 +270,9 @@ header .navbar ul li a:hover {
   padding: 1.6rem 3rem;
   border-radius: 4em;
   transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+  color: #000;
+  background: #29739e;
+  box-shadow: 0px 5px 18px rgba(46, 185, 255, 0.6);
   font-family: "Nunito", sans-serif;
 }
 
@@ -289,7 +289,7 @@ header .navbar ul li a:hover {
 }
 
 .home .btn:hover {
-  background: #1a047e;
+  background: #114563;
 }
 
 .home .btn:hover i {
