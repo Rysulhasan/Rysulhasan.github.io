@@ -42,7 +42,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #140024;
+  background: #4dff6a;
 }
 
 
@@ -144,7 +144,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #013005;
   }
 
   header .navbar ul {
@@ -203,7 +203,7 @@ header .navbar ul li a:hover {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #121212;
+  background-color: #013005;
 }
 
 .home::before {
