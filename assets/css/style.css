@@ -409,7 +409,7 @@ header .navbar ul li a:hover {
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
+  mix-blend-mode: normal;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -527,7 +527,7 @@ header .navbar ul li a:hover {
 .skills {
   padding-top: 50px;
   min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: #4a6e8d;
 }
 
 .skills h2 {
@@ -613,7 +613,7 @@ header .navbar ul li a:hover {
 
 /* education section starts */
 .education {
-  background: #e5ecfb;
+  background: #4a6e8d;
   min-height: 80vh;
 }
 
