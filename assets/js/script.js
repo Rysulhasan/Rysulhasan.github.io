@@ -202,3 +202,21 @@ const srtop = ScrollReveal({
     duration: 1000,
     reset: true
 });
+
+// Dark mode toggle functionality
+const toggle = document.getElementById('theme-toggle');
+const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+// Check local storage or system preference
+if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && prefersDarkScheme.matches)) {
+  document.body.classList.add('dark-theme');
+  toggle.innerHTML = '<i class="fas fa-sun"></i>';
+}
+
+// Toggle button functionality
+toggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark-theme');
+  const isDark = document.body.classList.contains('dark-theme');
+  localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  toggle.innerHTML = isDark ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+});
