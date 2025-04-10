@@ -524,7 +524,7 @@ header .navbar ul li a:hover {
 
 /* education section starts */
 .experience {
-  background: #4a6e8d;
+  background: #2C3E50;
   min-height: 80vh;
 }
 
@@ -607,6 +607,7 @@ header .navbar ul li a:hover {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
+
 
 /* education media queries starts*/
 @media screen and (max-width: 600px) {
