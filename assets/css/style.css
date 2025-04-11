@@ -250,16 +250,16 @@ header .navbar ul li a:hover {
   color: #ff7b00;
 }
 
-.home .content p {
+.home .content h4 {
   font-size: 2rem;
   color: #f7f7f7;
   font-weight: 600;
   padding: 1rem 0;
 }
 
-.home .content p span {
+.home .content h4 span {
   font-size: 2rem;
-  color: rgb(7, 120, 1);
+  color: rgb(250, 123, 5);
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -522,7 +522,7 @@ header .navbar ul li a:hover {
 /* about media queries ends*/
 /* about section ends */
 
-/* education section starts */
+/* experience section starts */
 .experience {
   background: #2C3E50;
   min-height: 80vh;
@@ -609,7 +609,7 @@ header .navbar ul li a:hover {
 }
 
 
-/* education media queries starts*/
+/* experience media queries starts*/
 @media screen and (max-width: 600px) {
   .experience .box-container .box {
     flex-direction: column;
@@ -644,96 +644,6 @@ header .navbar ul li a:hover {
 
 /* experience media queries ends*/
 /* experience section ends */
-
-
-
-/* skills section starts */
-.skills {
-  padding-top: 50px;
-  min-height: 90vh;
-  background: #4a6e8d;
-}
-
-.skills h2 {
-  color: #fff;
-}
-
-.skills .heading span {
-  color: rgb(255, 230, 0);
-}
-
-.skills .container {
-  background: rgba(0, 0, 22, 0.4);
-  color: #fff;
-  border-radius: 1rem;
-  padding: 2rem;
-  width: 90%;
-  margin: auto;
-  margin-top: 2rem;
-}
-
-.skills .container .row { 
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  flex-wrap: wrap;
-  gap: 1.8rem;
-}
-
-.skills .container .bar {
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
-  transition: 0.2s;
-}
-
-.skills .container .bar:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
-}
-
-.skills .container .bar .info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.skills .container .bar .info i {
-  font-size: 4rem;
-}
-
-.skills .container .bar .info span {
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: "Poppins";
-  margin-left: 0.5rem;
-}
-
-/* skills media queries starts*/
-@media screen and (max-width: 600px) {
-  .skills .container {
-    padding: 0;
-    margin: 0;
-  }
-
-  .skills .container .row {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 1rem;
-    padding: 2rem 0.2rem 2rem 0.2rem;
-    gap: 1rem;
-  }
-
-  .skills .container {
-    margin-top: 5px;
-    width: 100%;
-  }
-}
-
-/* skills media queries ends*/
-/* skills section ends */
 
 /* education section starts */
 .education {
@@ -856,6 +766,202 @@ header .navbar ul li a:hover {
 
 /* education media queries ends*/
 /* education section ends */
+
+/* Publications Section */
+.publications {
+  background: #2C3E50;
+  padding: 4rem 2rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.section-title span {
+  color: #2b3dda;
+}
+
+.pub-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pub-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  border-left: 4px solid #2b3dda;
+  position: relative;
+  overflow: hidden;
+}
+
+.pub-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.pub-badge {
+  position: absolute;
+  top: 15px;
+  right: -30px;
+  background: #2b3dda;
+  color: white;
+  padding: 0.3rem 2rem;
+  transform: rotate(45deg);
+  font-size: 0.8rem;
+  font-weight: bold;
+  width: 120px;
+  text-align: center;
+}
+
+.pub-card.featured {
+  border-left-color: #ff7b00;
+}
+.pub-card.featured .pub-badge {
+  background: #ff7b00;
+}
+
+.pub-meta {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.pub-abstract {
+  text-align: justify;
+  hyphens: auto;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.pub-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #2b3dda;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.pub-btn:hover {
+  background: #1a2a8f;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pub-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Publications section ends */
+
+/* skills section starts */
+.skills {
+  padding-top: 50px;
+  min-height: 90vh;
+  background: #4a6e8d;
+}
+
+.skills h2 {
+  color: #fff;
+}
+
+.skills .heading span {
+  color: rgb(255, 230, 0);
+}
+
+.skills .container {
+  background: rgba(0, 0, 22, 0.4);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.skills .container .row { 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  gap: 1.8rem;
+}
+
+.skills .container .bar {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 22, 0.9);
+  transition: 0.2s;
+}
+
+.skills .container .bar:hover {
+  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.skills .container .bar .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skills .container .bar .info i {
+  font-size: 4rem;
+}
+
+.skills .container .bar .info span {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin-left: 0.5rem;
+}
+
+/* skills media queries starts*/
+@media screen and (max-width: 600px) {
+  .skills .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .skills .container .row {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
+
+  .skills .container {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+
+/* skills media queries ends*/
+/* skills section ends */
+
 
 /* work section starts */
 .work {
